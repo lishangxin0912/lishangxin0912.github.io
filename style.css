@@ -70,3 +70,24 @@ body {
     cursor: pointer;
 }
 
+@media screen and (max-width: 376px) {
+    #container{
+      width: 95vw;
+    }
+
+    #img-container {
+      left: 29px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 15px;
+    }
+  
+    #player-control {
+      top: -10px;
+      left: 100px;
+    }
+}
