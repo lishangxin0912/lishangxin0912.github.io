@@ -1,0 +1,72 @@
+body {
+    background: #474444;
+    display: flex;
+}
+
+#container {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(130, 134, 129);
+    margin: 100px auto;
+    border-radius: 10%;
+}
+
+#img-container img {
+    position: relative;
+    width: 300px;
+    left: 50px;
+    top: -50px;
+    border-radius: 10%;
+}
+
+#song-name,
+#singer {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    top: -20px;
+}
+
+#progress-container {
+    position: relative;
+    background: rgb(80, 72, 72);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 40px 20px;
+    height: 4px;
+    top: -30px;
+}
+
+
+#progress {
+    background: #242323;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+}
+
+#duration-wrapper {
+    position: relative;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#player-control {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 4px;
+}
+
+#pre, #play, #next{
+    position: relative;
+    margin: 15px;
+    top: -50px;
+    font-size: 25px;
+    color: rgb(58, 53, 53);
+    cursor: pointer;
+}
+
