@@ -37,13 +37,13 @@ let playing = false;
 function playSong() {
     playing = true;
     play.classList.replace("fa-play", "fa-pause");
-    music.play();
+    music.play()
 }
 
 function pauseSong() {
     playing = false;
     play.classList.replace("fa-pause", "fa-play");
-    music.pause();
+    music.pause()
 }
 
 play.addEventListener('click', () => (playing ? pauseSong() : playSong()));
