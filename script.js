@@ -58,7 +58,7 @@ function loadSong(song) {
 }
 
 let songIndex = 0;
-loadSong(songs[songIndex]);
+
 
 function preSong() {
     songIndex--;
@@ -73,6 +73,7 @@ function nextSong() {
     loadSong(songs[songIndex]);
     playSong();
 }
+loadSong(songs[songIndex]);
 
 function updateProgress(e) {
     if (playing) {
