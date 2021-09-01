@@ -51,8 +51,10 @@ play.addEventListener('click', () => (playing ? pauseSong() : playSong()));
 function loadSong(song) {
     songName.textContent = song.displayName;
     singer.innerText = song.artist;
-    music.src = song.name + ".mp3";
-    img.src = song.name + ".jpeg";
+    //music.src = song.name + ".mp3";
+    music.src = `${song.name}.mp3`;
+    img.src = `${song.name}.jpeg`;
+    //img.src = song.name + ".jpeg";
 }
 
 let songIndex = 0;
