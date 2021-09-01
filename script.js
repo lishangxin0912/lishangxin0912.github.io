@@ -16,8 +16,8 @@ let music = document.querySelector("audio");
 
 const songs = [
     {
-        name: "Next to you",
-        displayName: "Next to you",
+        name: "Next to You",
+        displayName: "Next to You",
         artist: "Cat Trumpet",
     },
     {
