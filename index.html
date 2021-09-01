@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music-Player</title>
+    <link rel="shortcut icon" href="#"/>
+    <link rel="stylesheet" href="./ifont/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="img-container">
+            <img src="Next to You.jpeg" alt="">
+        </div>
+
+        <h2 id="song-name">Next to You</h2>
+        <h3 id="singer">Cat Trumpet</h3>
+
+        <audio src="Next to You.mp3"></audio>
+
+        <div id="progress-container">
+            <div id="progress"></div>
+            <div id="duration-wrapper">
+                <span id="current-time">0:00</span>
+                <span id="duration">3:58</span>
+            </div>
+        </div>
+
+        <div id="player-control">
+            <i class="fas fa-backward" id="pre"></i>
+            <i class="fas fa-play main-button" id="play"></i>
+            <i class="fas fa-forward" id="next"></i>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
